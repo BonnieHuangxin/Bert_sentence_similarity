@@ -1,0 +1,2 @@
+# Bert_sentence_similarity
+Bert预训练模型fine-tune计算文本相似度
