@@ -267,6 +267,10 @@ class Predict:
 if __name__ == "__main__":
     p = Predict()
     print(p.predict("你多大了？#你的年龄是多少？"))
+    while True:
+        sentenses = input("sentences:")
+        result = p.predict(sentences)
+        print(result)
     #input_file = './chinese_data/data_dev.txt'
     #sequence = read_txt(input_file)
     #print(time.strftime("%H:%M:%S"))
